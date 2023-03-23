@@ -14,13 +14,13 @@
 }
 
 .body {
-    font-family: 'Roboto', sans-serif, 'Times New Roman', Times, sans-serif;
+    font-family: "Roboto", sans-serif, 'Times New Roman', Times, sans-serif;
     font-style: normal;
     color: var(--text-color);
     background-color: #FFFFFF;
 }
 
-.logo-web {
+.logo {
         font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
@@ -51,7 +51,7 @@
 }
 
 .menu-item:hover,
-:focus {
+.menu-item:focus {
     color:#404bbf;
 }
 
@@ -60,11 +60,11 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: inherit;
+        color: var(--text-color);
 }
 
 .contacts:hover,
-:focus {
+.contacts:focus {
     color: #404bbf;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .modal-btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -94,7 +94,7 @@
 }
 
 .modal-btn:hover,
-:focus {
+.modal-btn:focus {
     background-color: #404BBF;
 }
 
@@ -157,7 +157,7 @@
 }
 
 .btn-menu-item {
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     font-style: inherit;
     background-color: #F4F4FD;
     color: #4D5AE5;
@@ -165,10 +165,11 @@
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
+    letter-spacing: 0.04em;
 }
 
 .btn-menu-item:hover,
-:focus {
+.btn-menu-item:focus {
     background-color: #404BBF;
     color: #fff;
 }
@@ -177,13 +178,15 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--title-color);
 }
 
 .portfolio-text {
     font-size: 16px;
     line-height: 1.5;
-    color: inherit;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 
 .logo-studio-footer {
